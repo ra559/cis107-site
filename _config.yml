@@ -1,8 +1,25 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: CIS 107 IT Fundamentals
+email: linuxworkshop67@gmail.com
+description: Home page for CIS - 107 IT fundamentals.
 theme: just-the-docs
-
-url: https://just-the-docs.github.io
+github_username: linuxworkshop67
+url: " "
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+color_scheme: nil
+search_enable: true
+
+collections:
+  modules:
+    permalink: "/:collection:/:path/"
+    output: true
+  resources:
+    permalink: "/:collection:/:path/"
+    output: true
+just_the_docs:
+  collections:
+    modules:
+      name: Modules
+    resources:
+      name: Resources
