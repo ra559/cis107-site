@@ -3,9 +3,7 @@ title: Home
 layout: home
 ---
 
-# {{page.title}}
-
-<img src="/assets/imgs/logo.png" width="200" height="200"/>
+<img src="assets/imgs/logo.png" width="200" height="200"/>
 
 ## Course Description
 
