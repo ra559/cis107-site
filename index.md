@@ -3,33 +3,69 @@ title: Home
 layout: home
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# {{page.title}}
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+<img src="/assets/imgs/logo.png" width="200" height="200"/>
 
-More specifically, the created site:
+## Course Description
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+This course provides IT students with an introduction to information technology fundamentals encompassing both hardware and software. An emphasis is placed on the system unit components, peripheral devices, and systems and applications software. 
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+### Topics include:  
+  * CPU
+  * RAM
+  * Machine cycle
+  * Data representations
+  * Number systems
+  * Operating system characteristics
+  * Utility programs
+  * Language translators
+  * Communication devices
+  * Media
+  * Computer networks. Students learn how to: effectively search the Internet for information, use Microsoft Windows, and use Microsoft productivity software (Word, Excel, and PowerPoint).
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
 
-To get started with creating a site, simply:
+## Special Note
+* If you have already completed CIS 101, you should not be registered for this course. Talk to your professor about it.
+* This course is a pre-requisite for courses such as CIS 116, CIS 125, CIS 170, and CIS 180. Students who wish to take higher level courses need a “C” or better in this course to take those higher-level courses.
+* For the laptop loan you need to send a request to the following email laptoploan@pccc.edu. Student ID, Name and School Email.
+* Your instructor may also make available VDI, a tool that allows you to run Microsoft Windows & Office on any machine. If so, instructions will be found in Blackboard.
+* Free Microsoft Office 2019/365 is available for students. See the link in Blackboard. This is available for Windows and Mac users.
+* Tutoring and assistance with Microsoft & Windows projects can be found through the CIS Lab. More information here: [www.pccc.edu/cis/cis-lab](www.pccc.edu/cis/cis-lab)
+  
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+| Instructor | Prerequisites         | Credits | Lecture Hours | Lab Room | Study time  |
+| ---------- | --------------------- | ------- | ------------- | -------- | ----------- |
+| R. Alberto | ENW-107 or DE-020/025 | 3       | 2.5           | H311     | **6 Hours** |
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+## Text Book Material
 
-----
+The online access code for an electronic book is included in your course registration. 
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+## Additional Time and Supplemental Requirements
+* Study time out of class is about six (6) hours per week.
+* Read the text chapters assigned per the schedule.
+* Review objectives from the chapters.
+* Work on some exercises at the end of the chapter.
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+## Course Learning Outcomes:
+Upon completion of this course, students will be able to:
+1. Describe the different data types and computer operations on each type
+2. Explain the functions of computing hardware components
+3. Distinguish between hardware and software
+4. Distinguish between system software and application software.
+5. Demonstrate understanding new technology trends.
+6. Convert a given number from one base to other bases
+7. Apply system (Windows) and application software (Word, Excel, PowerPoint) to accomplish tasks
+8. Utilize search engines to find information on the Web
+
+## Grading Standards
+
+| Component                     | Percentage | Other                     |
+| ----------------------------- | ---------- | ------------------------- |
+| Exams                         | 30%        | 5 - 7 test will be given  |
+| Projects, Activities, Quizzes | 30%        | Via MyITLab               |
+| Discussion Boards,            | 10%        | One Per chapter           |
+| Web Design Project            | 10%        | Wix.com                   |
+| Class Notes                   | 10%        | Chapter notes from TIA    |
+| Attendance & participation    | 10%        | Participation assignments |
