@@ -1,7 +1,4 @@
----
-title: Welcome To CIS-107
-layout: home
----
+
 <img src="/assets/imgs/logo.png" width="200" height="200"/>
 
 ## Course Description
