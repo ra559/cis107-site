@@ -1,3 +1,8 @@
+---
+layout: home
+title: CIS-107 Home
+---
+# {{page.title}}
 
 <img src="/assets/imgs/logo.png" width="200" height="200"/>
 
