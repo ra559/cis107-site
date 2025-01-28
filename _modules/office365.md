@@ -11,4 +11,4 @@ title: Introduction to Office 365
 * *The link to MyITLab is found in the "Start here" folder*
 
 ## Word Activities
-* [Activity 1 Files](https://ra559.github.io/cis107-site/activities/wordActivity1.zip)
+* [Activity 1 Files](https://ra559.github.io/cis107-site/assets/activities/wordActivity1.zip)
