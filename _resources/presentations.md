@@ -5,8 +5,8 @@ title: All presentations
 # {{page.title}}
 
 1. [Introduction to Windows](https://rapurl.live/ljg)
-2. [Introduction to MS Word](https://rapurl.live/o9n)
-   1. [Word Activity 2](https://rapurl.live/h8v)
+2. [Introduction to MS Word Part 1](https://rapurl.live/zcq)
+   1. [Word Activity Part 2](https://rapurl.live/h8v)
 3. [Introduction to MS Excel](https://rapurl.live/unv)
 4. [Introduction to MS PowerPoint]( https://rapurl.live/zva)
 5. [TIA - Chapter 1](https://rapurl.live/vrm)
