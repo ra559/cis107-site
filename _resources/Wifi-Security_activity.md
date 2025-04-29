@@ -134,11 +134,11 @@ title: WiFi Security Activity
       8. Select the network interface and then click on the blue fin in the menu to start scanning the network.
 
 
-<p><img src="/assets/imgs/wifi/1.png"/></p>
+<p><img src="https://raw.githubusercontent.com/ra559/cis107-site/refs/heads/main/assets/imgs/wifi/1.png"/></p>
 
-<p><img src="/assets/imgs/wifi/2.png"/></p>
+<p><img src="https://raw.githubusercontent.com/ra559/cis107-site/refs/heads/main/assets/imgs/wifi/2.png"/></p>
 
-<p><img src="/assets/imgs/wifi/3.png"/></p>
+<p><img src="https://raw.githubusercontent.com/ra559/cis107-site/refs/heads/main/assets/imgs/wifi/3.png"/></p>
 
 
 
@@ -155,7 +155,7 @@ title: WiFi Security Activity
 4. Notice that the user name and password are readable in plaintext
 
 
-![final](/assets/imgs/wifi/final_result.png)
+![final](https://raw.githubusercontent.com/ra559/cis107-site/refs/heads/main/assets/imgs/wifi/final_result.png)
 
 
 
