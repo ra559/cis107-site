@@ -134,19 +134,11 @@ title: WiFi Security Activity
       8. Select the network interface and then click on the blue fin in the menu to start scanning the network.
 
 
+<p><img src="assets/imgs/wifi/1.png"/></p>
 
-<p>
-<img src="assets/imgs/wifi/1.png">
-</p>
+<p><img src="assets/imgs/wifi/2.png"/></p>
 
-<p>
-<img src="assets/imgs/wifi/2.png">
-</p>
-
-
-<p>
-<img src="assets/imgs/wifi/3.png">
-</p>
+<p><img src="assets/imgs/wifi/3.png"/></p>
 
 
 
