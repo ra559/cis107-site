@@ -20,6 +20,7 @@ title: WiFi Security Activity
   - [Some Troubleshooting commands:](#some-troubleshooting-commands)
   - [To Use Aircrack Manually:](#to-use-aircrack-manually)
     - [Common Aircrack-ng Commands](#common-aircrack-ng-commands)
+  - [Nmap cheat sheet](#nmap-cheat-sheet)
   - [Deploying the gallery\_app in another Linux PC](#deploying-the-gallery_app-in-another-linux-pc)
     - [Accessing the SQLite DB in the RAILS console](#accessing-the-sqlite-db-in-the-rails-console)
       - [Option 1](#option-1)
@@ -205,6 +206,26 @@ sudo ip link set <interface> up
 | `aircrack-ng -w wordlist.cap capture.cap` | Crack password             |
 | `wash -i wlan0mon`                        | Detect WPS-enabled routers |
 
+
+## Nmap cheat sheet
+
+| Command                                      | Description                                      |
+|----------------------------------------------|--------------------------------------------------|
+| `nmap -sn 192.168.1.0/24`                    | Ping scan (host discovery only)                  |
+| `nmap 192.168.1.10`                          | Scan 1000 common TCP ports on a host             |
+| `nmap 192.168.1.10-20`                       | Scan a range of IPs                              |
+| `nmap -A 192.168.1.10`                       | Aggressive scan (OS, version, script, traceroute)|
+| `nmap -sV 192.168.1.10`                      | Detect service versions                          |
+| `sudo nmap -O 192.168.1.10`                  | Detect operating system                          |
+| `nmap -p 22,80,443 192.168.1.10`             | Scan specific ports                              |
+| `nmap -p- 192.168.1.10`                      | Scan all 65535 TCP ports                         |
+| `nmap -sS 192.168.1.10`                      | TCP SYN (stealth) scan                           |
+| `nmap -sU 192.168.1.10`                      | UDP scan                                         |
+| `nmap -Pn 192.168.1.10`                      | Skip host discovery (treat target as up)         |
+| `nmap -T4 192.168.1.10`                      | Speed up scan timing                             |
+| `nmap -v 192.168.1.10`                       | Verbose output                                   |
+| `nmap -oN scan.txt 192.168.1.10`             | Save scan output to a file (normal format)       |
+| `nmap --script vuln 192.168.1.10`            | Run vulnerability scan using scripts             |
 
 
 ## Deploying the gallery_app in another Linux PC
