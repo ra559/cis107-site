@@ -13,7 +13,8 @@ title: WiFi Security Activity
     - [Requirements:](#requirements-1)
     - [Step 1: Make sure everything is running](#step-1-make-sure-everything-is-running)
     - [Step 2: Run Wifite](#step-2-run-wifite)
-  - [Activity 2: Capturing Packets in a network](#activity-2-capturing-packets-in-a-network)
+  - [Activity 2: Let's do some recon](#activity-2-lets-do-some-recon)
+  - [Activity 3: Capturing Packets in a network](#activity-3-capturing-packets-in-a-network)
     - [Step 1: Setting up wireshark](#step-1-setting-up-wireshark)
     - [Step 2: Capturing HTTP requests](#step-2-capturing-http-requests)
     - [Step 3: Stop the capture](#step-3-stop-the-capture)
@@ -107,7 +108,25 @@ title: WiFi Security Activity
 > * [How to Crack WPA/WPA2](https://www.aircrack-ng.org/doku.php?id=cracking_wpa) by darkAudax
 > * [How to Use Aircrack-ng: A Guide to Network Compromise](https://www.stationx.net/how-to-use-aircrack-ng-tutorial/) by Andrew DeVito
 
-## Activity 2: Capturing Packets in a network
+
+## Activity 2: Let's do some recon
+
+Since we have already cracked the password and have access to the network. Let's do some recon!
+
+1. [Nmap](https://nmap.org/) is a command line network scanning tool. We are going to use nmap to find out the following:
+   1. How many computers are there on the network
+   2. Which operating system are they running
+   3. Which ports are open on said computers
+   4. Are there any exploitable vulnerabilities?
+2. First find out what is the default gateway: `ip route`
+3. Now let's scan:
+   1. `sudo nmap -sn 192.168.0.0/24 | tee all_host.log`
+   2. `sudo nmap -O 192.168.0.0/24 | tee all_host_os.log`
+   3. `sudo nmpa -A 192.168.0.0/24 | tee all_host_everything.log`
+
+
+
+## Activity 3: Capturing Packets in a network
 ### Step 1: Setting up wireshark
 
 1. Now that we have access to the network, lets capture the data that is flowing to see if you can find any unencrypted information.
