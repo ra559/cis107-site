@@ -134,11 +134,11 @@ title: WiFi Security Activity
       8. Select the network interface and then click on the blue fin in the menu to start scanning the network.
 
 
-<p><img src="assets/imgs/wifi/1.png"/></p>
+<p><img src="/assets/imgs/wifi/1.png"/></p>
 
-<p><img src="assets/imgs/wifi/2.png"/></p>
+<p><img src="/assets/imgs/wifi/2.png"/></p>
 
-<p><img src="assets/imgs/wifi/3.png"/></p>
+<p><img src="/assets/imgs/wifi/3.png"/></p>
 
 
 
@@ -154,9 +154,9 @@ title: WiFi Security Activity
 3. Slowly analyze the request until you find one that reads something like "user/sign_in http1.1"
 4. Notice that the user name and password are readable in plaintext
 
-<p>
-<img src="/assets/imgs/wifi/final_result.png">
-</p>
+
+![final](/assets/imgs/wifi/final_result.png)
+
 
 
 ## Some Troubleshooting commands:
