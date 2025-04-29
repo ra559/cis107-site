@@ -133,9 +133,8 @@ title: WiFi Security Activity
          1. Make sure promiscuous mode is ticked on
       8. Select the network interface and then click on the blue fin in the menu to start scanning the network.
 
-<p>
-<img src="/assets/imgs/wifi/1.png">
-</p>
+
+![1](/assets/imgs/wifi/1.png)
 
 <p>
 <img src="/assets/imgs/wifi/2.png">
