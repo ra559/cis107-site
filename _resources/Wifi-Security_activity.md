@@ -112,14 +112,33 @@ title: WiFi Security Activity
 ## Activity 2: Let's do some recon
 
 Since we have already cracked the password and have access to the network. Let's do some recon!
+First, you will need to connect to the network using one of your wifi cards. Preferably use the default one. IF you cannot connect to the network, it is likely that the networking service is not running. You can run the following commands to re-enable networking:
 
-1. [Nmap](https://nmap.org/) is a command line network scanning tool. We are going to use nmap to find out the following:
+```bash
+# Check if any networking card is in monitoring mode
+iwconfig 
+
+# if any interface is shown to be in monitoring mode, disable monitoring mode
+# for example wlan1mon
+sudo airmon-ng stop wlan1mon
+
+# start the network service and network manager service
+sudo systemctl start NetworkManager.service
+sudo systemctl start networking.service
+```
+1. Lets figure out what is our machine's ip and the router's (gateway) ip: `ip route && hostname -I`. For example, in my case the output is:
+```bash
+default via 10.0.0.1 dev wlp6s0 proto dhcp src 10.0.0.110 metric 600 
+10.0.0.0/24 dev wlp6s0 proto kernel scope link src 10.0.110 metric 600 
+10.0.0.110
+``` 
+2. [Nmap](https://nmap.org/) is a command line network scanning tool. We are going to use nmap to find out the following:
    1. How many computers are there on the network
    2. Which operating system are they running
    3. Which ports are open on said computers
    4. Are there any exploitable vulnerabilities?
-2. First find out what is the default gateway: `ip route`
-3. Now let's scan:
+3. First find out what is the default gateway: `ip route`
+4. Now let's scan:
    1. `sudo nmap -sn 192.168.0.0/24 | tee all_host.log`
    2. `sudo nmap -O 192.168.0.0/24 | tee all_host_os.log`
    3. `sudo nmpa -A 192.168.0.0/24 | tee all_host_everything.log`
@@ -167,6 +186,9 @@ Since we have already cracked the password and have access to the network. Let's
 1. Using the client computers, go to the servers url
 2. Create an account
 3. Upload a photo to the server
+
+> Note: you do not see any http traffic, it is possible that you are capturing in the wrong channel. Find out which channel your network is currently using with: `iw dev` and set wireshark to that channel
+
 
 ### Step 3: Stop the capture
 1. Go back to wireshark and stop the capture
