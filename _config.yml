@@ -17,9 +17,14 @@ collections:
   resources:
     permalink: "/:collection:/:path/"
     output: true
+  week_reports:
+    permalink: "/:collection:/:path/"
+    output: true
 just_the_docs:
   collections:
     modules:
       name: Modules
     resources:
+      name: Resources
+    week_reports:
       name: Resources

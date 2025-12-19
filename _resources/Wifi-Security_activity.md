@@ -1,7 +1,4 @@
----
-layout: page
-title: WiFi Security Activity
----
+
 # {{page.title}}
 
 - [{{page.title}}](#pagetitle)
