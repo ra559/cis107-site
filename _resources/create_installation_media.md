@@ -30,7 +30,7 @@ You can download an ISO fit for your computer by using the Media Creation Tool, 
 
 ### How to create an installation media with Rufus
 * **What is Rufus?** Rufus (The Reliable USB Formatting Utility, with Source) is a free and open-source portable application for Microsoft Windows that can be used to format and create bootable USB flash drives or Live USBs. *Source: [Wikipedia](https://en.wikipedia.org/wiki/Rufus_(software))*
-* **Why would I use Rufus over the official tool?** The short answer is: Because it is better. Rufus allows you to customize the installer and works for other operating systems too. It also allows you to bypass Microsoft Requirements for Windows 11 so that it can run on unsupported hardware.
+* **Why would I use Rufus over the official tool?** The short answer is: Because it is better. Rufus allows you to customize the installer and works for other operating systems too. It also allows you to bypass Microsoft Requirements for Windows 11 so that it can run on unsupported hardware. ***BE AWARE: This is not the legitimate way of installing Windows. Do this at your own risk and understand that running Windows in unsupported hardware is something Microsoft does not condone and can lead to updates and version patches not be available to your installation of Windows 11.***
 
 1. Download Rufus from [here]()
 2. Follow the [screenshots](https://rufus.ie/en/) on their website to prepare your installation media
