@@ -1,3 +1,7 @@
+---
+layout: page
+title: WiFi Activity
+---
 
 # {{page.title}}
 
