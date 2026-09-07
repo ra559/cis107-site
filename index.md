@@ -63,7 +63,7 @@ Upon completion of this course, students will be able to:
 | ----------------------------- | ---------- | ------------------------- |
 | Exams                         | 30%        | 5 - 7 test will be given  |
 | Projects, Activities, Quizzes | 30%        | Via MyITLab               |
-| Discussion Boards,            | 10%        | One Per chapter           |
-| Web Design Project            | 10%        | Wix.com                   |
-| Class Notes                   | 10%        | Chapter notes from TIA    |
-| Attendance & participation    | 10%        | Participation assignments |
+| Discussion Boards,            | 15%        | One Per chapter           |
+| Web Design Project            | 15%        | Wix.com                   |
+| Class Notes                   | 5%         | Chapter notes from TIA    |
+| Attendance & participation    | 5%         | Participation assignments |

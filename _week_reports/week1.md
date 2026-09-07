@@ -1,8 +1,3 @@
----
-layout: page
-title: Week Report 1
----
-
 # {{page.title}}
 
 ## MyITLab Assignments
