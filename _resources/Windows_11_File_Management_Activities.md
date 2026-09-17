@@ -1,8 +1,42 @@
 
-title: Windows 11 File Management Activities
-layout: page
+Windows 11 File Management Lab
+page
+
 
 # {{page.title}}
+
+- [{{page.title}}](#pagetitle)
+  - [Learning Objectives](#learning-objectives)
+  - [Activity 1: Create a Folder Structure](#activity-1-create-a-folder-structure)
+    - [Tasks](#tasks)
+  - [Activity 2: Create and Rename Files](#activity-2-create-and-rename-files)
+    - [Tasks](#tasks-1)
+    - [Final Files](#final-files)
+  - [Activity 3: Copy and Move Files](#activity-3-copy-and-move-files)
+    - [Tasks](#tasks-2)
+    - [Concepts](#concepts)
+  - [Activity 4: Practice Drag and Drop](#activity-4-practice-drag-and-drop)
+    - [Key Concept](#key-concept)
+  - [Activity 5: Delete and Restore Files](#activity-5-delete-and-restore-files)
+    - [Tasks](#tasks-3)
+    - [Questions](#questions)
+  - [Activity 6: Search for Files](#activity-6-search-for-files)
+    - [Tasks](#tasks-4)
+    - [Questions](#questions-1)
+  - [Activity 7: Understand File Extensions](#activity-7-understand-file-extensions)
+    - [Tasks](#tasks-5)
+  - [Activity 8: Sort and Change File Views](#activity-8-sort-and-change-file-views)
+    - [Tasks](#tasks-6)
+    - [Question](#question)
+  - [Activity 9: Create a Personal File Organization System](#activity-9-create-a-personal-file-organization-system)
+    - [Tasks](#tasks-7)
+    - [Goal](#goal)
+  - [Activity 10: File Management Challenge](#activity-10-file-management-challenge)
+    - [Tasks](#tasks-8)
+    - [Suggested Final Structure](#suggested-final-structure)
+- [Activity Completion Checklist](#activity-completion-checklist)
+- [Submission](#submission)
+
 
 ## Learning Objectives
 
@@ -19,7 +53,6 @@ By completing these activities, students will practice:
 - Sorting and changing File Explorer views
 - Organizing files into a logical folder structure
 
-------------------------------------------------------------------------
 
 ## Activity 1: Create a Folder Structure
 
@@ -36,17 +69,19 @@ CIS107
 └── Downloads
 ```
 
+
 ### Tasks
 
-1.  Open **File Explorer**.
-2.  Open your **Documents** folder.
-3.  Create a folder named `CIS107`.
-4.  Open the `CIS107` folder.
-5.  Create the five subfolders shown above.
-6.  Navigate between the folders using File Explorer.
-7.  Use the address bar to navigate directly to the `CIS107` folder.
+1. Open **File Explorer**.
+2. Open your **Documents** folder.
+3. Create a folder named `CIS107`.
+4. Open the `CIS107` folder.
+5. Create the five subfolders shown above.
+6. Navigate between the folders using File Explorer.
+7. Use the address bar to navigate directly to the `CIS107` folder.
 
-------------------------------------------------------------------------
+> Take a screenshot of File Explorer showing all the folders inside the CIS107 folder. Save your screenshot to use later in your final submission.
+
 
 ## Activity 2: Create and Rename Files
 
@@ -79,7 +114,8 @@ first_assignment.txt
 important_notes.txt
 ```
 
-------------------------------------------------------------------------
+> Take a screenshot of File Explorer showing all the files inside the `CIS107\Documents` folder. Save your screenshot to use later in your final submission.
+
 
 ## Activity 3: Copy and Move Files
 
@@ -101,7 +137,8 @@ Use the files created in Activity 2.
 -   **Cut and Paste** can be used to move files.
 -   **Copy and Paste** can be used to create copies.
 
-------------------------------------------------------------------------
+> Take a screenshot of File Explorer showing all the files inside the `CIS107\Documents` folder and the `CIS107\Assignments` folder. You must take a single screenshot showing both folders. Save your screenshot to use later in your final submission.
+
 
 ## Activity 4: Practice Drag and Drop
 
@@ -119,7 +156,8 @@ Use the files created in Activity 2.
 Dragging a file between folders can move or copy the file depending on
 the location and keyboard modifier being used.
 
-------------------------------------------------------------------------
+> Take a screenshot of File Explorer showing all the files inside the `CIS107\Documents` folder and the `CIS107\Images` folder. You must take a single screenshot showing both folders. Save your screenshot to use later in your final submission.
+
 
 ## Activity 5: Delete and Restore Files
 
@@ -147,30 +185,29 @@ delete_me.txt
 2.  What is the purpose of the Recycle Bin?
 3.  What is different about emptying the Recycle Bin?
 
-------------------------------------------------------------------------
+> This activity does not require a screenshot. Answer the questions in the submission document.
 
 ## Activity 6: Search for Files
 
 **Skills:** File Explorer search
 
-Create several files with different names and then use the File Explorer
-search box to locate them.
+Create several files with different names and then use the File Explorer search box to locate them. Use long and short file names such as `Homework_biology_fall_26.txt`.
 
 ### Tasks
 
 Search for:
 
-1.  A specific filename.
-2.  All text files.
-3.  A file containing a particular word in its name.
+1. A specific filename.
+2. All text files.
+3. A file containing a particular word in its name.
 
-Example search:
+* **Example search:**
 
 ``` text
 *.txt
 ```
 
-Then search for:
+* **Then search for:**
 
 ``` text
 notes
