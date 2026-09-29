@@ -13,7 +13,8 @@ layout: page
 ### Grader projects 
 - Excel Chapter 1 Cumulative - Medical Expenses (PC and Mac)
 - PowerPoint Chapter 1 Cumulative - Want to Waffle (PC and Mac)
-- 
+
+
 ## Blackboard Assignments
 - Microsoft Office & Windows 11 Notes 
 
