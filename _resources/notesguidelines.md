@@ -7,23 +7,21 @@ layout: page
 
 * **Header:** Your name, last name, course number, semester 
   * *Example:* John Smith, CIS-107, Fall 24
-* **Heading:** Heading 1 (Ex: Notes Chapter 1)
-* **Font size:** 9
-* **Font Color:** gray 
-* **Font Style:** Italic 
+  * **Font size:** 9
+  * **Font Color:** gray 
+  * **Font Style:** Italic 
 * **Footer:** Page number on the right 
-* **Font size:** 9
-* **Font Color:** gray 
-* **Font Style:** Italic 
+* **Heading:** Heading 1 (Ex: Notes Chapter 1)
 * **Page margins:** 0.5 on all sides
-* **Font Family:** Calibri (or a [web safe font](https://www.w3schools.com/csSref/css_websafe_fonts.php))
-* **Font color:** Black
-* **Font Size:** 12
-* **Line Spacing:** 1.5 
+* **Font Family:** Calibri (or a [web safe font](https://www.w3schools.com/csSref/css_websafe_fonts.php)) For the entire document.
+* The rest of the document:
+  * **Font color:** Black
+  * **Font Size:** 12
+  * **Line Spacing:** 1.5 
 * All concepts must be bold and the definition must be normal.
 * Accepted file formats to submit - PDF/Docx/Odt  (pdf preferred)
 * Penalty for improper formatting: 10 Points
-* All quizzes are from the notes. Studying the wrong definitions may cause you to fail.
+* All quizzes are from the notes. *Studying the wrong definitions may cause you to fail.*
 
 * Here is an example document in docx format
   * [Notes_example.docx](/assets/resources/notes_guidelines/Example_Notes.docx)
