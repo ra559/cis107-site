@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Activity: Markdown, VS Code, and Codex
+title: Markdown + Codex
 ---
 
 # {{page.title}}
